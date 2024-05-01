@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+section {
+    height: 150px;
+    width: 150px;
+}
+
+.container {
+    padding: 20px;
+    background-color: #5f5e5e;
+    height: 100vh;
+}
+
+.myHeading{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    display: grid;
+    place-items: center;
+    color: wheat;
+    font-size: x-large;
+}
+
+.a {
+    background-color: #288f8f;
+}
+
+.b, .dBox {
+    background-color: #dd1541;
+}
+
+.c {
+    background-color: #8e9712;
+}
